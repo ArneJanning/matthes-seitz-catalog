@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matthes-seitz-catalog"
+version = "1.0.0"
+description = "Scrape the complete Matthes & Seitz Berlin book catalog as structured JSON"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Arne Janning", email = "arne@phronesis-ai.de" }]
+keywords = ["scraper", "books", "catalog", "matthes-seitz", "publishing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = [
+    "requests>=2.28",
+    "beautifulsoup4>=4.12",
+]
+
+[project.scripts]
+matthes-seitz-catalog = "matthes_seitz_catalog.scraper:main"
+
+[project.urls]
+Homepage = "https://github.com/arnejanning/matthes-seitz-catalog"
+Repository = "https://github.com/arnejanning/matthes-seitz-catalog"
+Issues = "https://github.com/arnejanning/matthes-seitz-catalog/issues"
