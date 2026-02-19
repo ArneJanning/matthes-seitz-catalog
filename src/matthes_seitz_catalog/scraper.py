@@ -38,7 +38,7 @@ ALL_IMPRINTS = [
 
 USER_AGENT = (
     "matthes-seitz-catalog/1.0 "
-    "(+https://github.com/arnejanning/matthes-seitz-catalog)"
+    "(+https://github.com/ArneJanning/matthes-seitz-catalog)"
 )
 
 HEADERS = {"User-Agent": USER_AGENT}

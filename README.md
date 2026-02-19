@@ -33,7 +33,7 @@ pip install matthes-seitz-catalog
 Oder direkt aus dem Repo:
 
 ```bash
-pip install git+https://github.com/arnejanning/matthes-seitz-catalog.git
+pip install git+https://github.com/ArneJanning/matthes-seitz-catalog.git
 ```
 
 ## Benutzung

@@ -30,6 +30,6 @@ dependencies = [
 matthes-seitz-catalog = "matthes_seitz_catalog.scraper:main"
 
 [project.urls]
-Homepage = "https://github.com/arnejanning/matthes-seitz-catalog"
-Repository = "https://github.com/arnejanning/matthes-seitz-catalog"
-Issues = "https://github.com/arnejanning/matthes-seitz-catalog/issues"
+Homepage = "https://github.com/ArneJanning/matthes-seitz-catalog"
+Repository = "https://github.com/ArneJanning/matthes-seitz-catalog"
+Issues = "https://github.com/ArneJanning/matthes-seitz-catalog/issues"
